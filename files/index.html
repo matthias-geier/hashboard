@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>hash_board</title>
+  <meta name="description" content="Anonymous message board using hash tags">
+  <meta name="author" content="Matthias Geier">
+
+  <link rel="stylesheet" href="/css/kickstart.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all">
+
+  <script src="/js/jquery.js" type="text/javascript"></script>
+  <script src="/js/jquery.cookie.js" type="text/javascript"></script>
+  <script src="/js/mustache.js" type="text/javascript"></script>
+  <script src="/js/kickstart.js" type="text/javascript"></script>
+  <script src="/js/hash_board.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="menu">
+  <ul class="menu">
+    <li><a href="/">HASH BOARD</a></li>
+    <li><a><i class="icon-plus"></i> HASH A ..</a>
+      <ul class="submenu">
+        <li><a id="hash_board"><i class="icon-user"></i> BOARD</a>
+        <li><a id="hash_shared_board"><i class="icon-bullhorn"></i>
+          SHARED BOARD</a></li>
+      </ul>
+    </li>
+    <li><form id="hash_search"><i class="icon-search"></i>
+      <input type="text" id="id_hash" placeholder="hash" />
+      <input type="submit" id="submit_hash" value="go!" />
+    </form></li>
+    <li><form id="hash_user"><label for="username">Welcome, </label>
+      <input type="text" id="username"
+        placeholder="use a name: letters + numbers" />
+    </form></li>
+  </ul>
+</div>
+<div id="main">
+  <div id="trends" class="col_12"></div>
+</div>
+</body>
+</html>
