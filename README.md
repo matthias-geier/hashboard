@@ -19,3 +19,15 @@ cd into the git root
 ```
 
 Navigate to localhost:3000 in your browser (if you are using thin)
+
+# Running with Vagrant
+
+cd into git root
+
+```bash
+  vagrant up
+  vagrant ssh
+  cd /vagrant
+  thin start
+```
+
