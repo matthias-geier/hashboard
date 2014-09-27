@@ -6,6 +6,7 @@ sudo apt-get update
 sudo apt-get -y install software-properties-common
 sudo apt-get -y install python-software-properties
 sudo apt-get -y install build-essential
+sudo apt-get -y install redis-server
 sudo add-apt-repository ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get -y install ruby2.1 ruby2.1-dev
